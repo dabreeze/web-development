@@ -1,0 +1,11 @@
+thead {
+    background-color: rgb(69, 138, 243);
+}
+
+#Africangod tr:hover td:hover{
+    background-color: rgb(156, 225, 228);
+  
+}
+.idols{
+    border: 3px;
+}

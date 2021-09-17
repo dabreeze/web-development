@@ -1,0 +1,34 @@
+thead{
+    background: rgb(134, 173, 70);
+ 
+}
+tbody{
+    background: rgb(235, 230, 230);
+}
+tbody td:hover{
+    background: rgb(224, 119, 119);
+}
+table{
+    width: 50%;
+    border: solid;
+    border-radius: 2%;
+    border-color: rgb(156, 147, 147);
+   
+}
+
+.height-increase{
+    height: 600%;
+}
+td{
+    border-color: rgb(173, 156, 23);
+    border: solid;
+    border-width: 20%;
+    text-align: center;
+    border-bottom-color: darkgreen;
+    border-right-color: darkkhaki;
+    border-top-color: ghostwhite;
+    border-left-color: grey;
+}
+#day{
+    background-color: hotpink;
+}
