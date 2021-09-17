@@ -1,0 +1,38 @@
+
+li{
+    margin-left: 50%;
+    margin-right: 50%;
+    
+}
+input{
+    display: block;
+    line-height: 3;
+    
+    
+}
+h1{
+    
+    margin-left: 50%;
+    text-decoration: none;
+    
+}
+.main{
+  margin: 50%;
+  margin-top:10%;
+  
+
+  
+}
+svg{
+        position: relative;
+        left: 185px;
+        top: -33px;
+    
+}
+#login{
+    text-align: center;
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+}

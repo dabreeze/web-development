@@ -1,0 +1,67 @@
+
+body{
+    background-color: rgb(247, 245, 245);
+    /* background-image: url("istock.jpg"); */
+   
+}
+
+#main{
+    border-style: none;
+    padding: 10%;
+    text-decoration: none;
+    text-shadow: 3em;
+    line-height: 1.7em;
+
+}
+textarea{
+    display: flex;
+    color: rgb(141, 98, 98);
+    
+}
+h1{
+    color: rgb(180, 93, 93);
+}
+
+
+p{
+    color: red;
+}
+.p1{
+    display: none;
+}
+.p2{
+    display: block;
+}
+.p3{
+    display: inline;
+}
+.p4{
+    display: inline-block;
+}
+li {
+    text-decoration: none;
+    color: rgb(180, 93, 93);
+    display: inline;
+    
+/* .nav{
+    padding: 40%;
+} */
+
+}
+a{
+    text-decoration: none;
+    
+}
+/* #fimage{
+   
+    width: 600px;
+
+} */
+figure{
+    /* position: relative;
+    top: 150px;
+    left: 200px;
+    z-index: 1; */
+    width: 150px;
+    float: left;
+}
