@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+         crossorigin="anonymous"
+      />
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Pin Pon Game</title>
+</head>
+<body>
+    <div class="container pt-5">
+        <div class="card container-fluid pt-4" style="width: 20rem;">
+            <img src="./assets/tenis.jpeg" class="card-img-top" alt="image of tenis game">
+            <div class="card-body">
+                <h1><span id="p1ScoreSpan">0</span> to <span id="p2ScoreSpan">0</span></h1>
+                <label for="playTo">Play to</label>
+                <select id="playTo">
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+            
+            
+                </select><br>
+                <div class="d-grid gap-2 pt-3">
+            
+                    <button class="btn btn-secondary" id="p1Btn">+1 Player One</button>
+                    <button class="btn btn-secondary" id="p2Btn">+1 Player Two</button>
+                    <button class="btn btn-outline-secondary" id="reset">Reset</button>
+                </div>
+            </div>
+          </div>
+        
+    </div>
+
+   
+
+
+
+
+   
+
+    
+    <script src="./App.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 
+    crossorigin="anonymous"></script>
+    
+</body>
+</html>

@@ -1,0 +1,77 @@
+.winner {
+    color: rgb(105, 219, 105);
+}
+
+.looser {
+    color: rgb(236, 101, 101);
+}
+
+body {
+    background-image: url("./assets/tenis2.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position-y: top;
+}
+
+
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [1024px -> 1200px]*/
+    body {
+        background-image: url("./assets/tenis2.jpg");
+        background-repeat: no-repeat;
+        background-size:100%;
+        background-position-y: top;
+    }
+}
+
+
+@media only screen and (max-width: 1024px){
+    /*Tablets [901px -> 1024px]*/
+    body {
+        background-image: url("./assets/tenis2.jpg");
+        background-repeat: no-repeat;
+        background-size:160%;
+        background-position-y: top;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    /*Tablets [801px -> 900px]*/
+    body {
+        background-image: url("./assets/tenis2.jpg");
+        background-repeat: no-repeat;
+        background-size:160%;
+        background-position-y: top;
+    }
+}
+
+
+@media only screen and (max-width: 800px){
+    /*Tablets [601px -> 800px]*/
+    body {
+        background-image: url("./assets/tenis2.jpg");
+        background-repeat: no-repeat;
+        background-size:180%;
+        background-position-y: top;
+    }
+
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    body {
+        background-image: url("./assets/tenis2.jpg");
+        background-repeat: no-repeat;
+        background-size:210%;
+        background-position-y: top;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    body {
+        background-image: url("./assets/tenis2.jpg");
+        background-repeat: no-repeat;
+        background-size:210%;
+        background-position-y: top;
+    }
+}
